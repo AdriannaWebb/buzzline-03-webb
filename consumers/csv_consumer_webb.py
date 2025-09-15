@@ -1,11 +1,10 @@
 """
-csv_consumer_case.py
+csv_consumer_webb.py
 
-Consume json messages from a Kafka topic and process them.
+Consume billing monitoring messages and detect consumer protection violations.
 
 Example Kafka message format:
-{"timestamp": "2025-01-11T18:15:00Z", "temperature": 225.0}
-
+{"timestamp": "2025-09-14T15:00:00Z", "company": "MegaCorp", "amount": 29.99, "complaint_type": "unexpected_charge"}
 """
 
 #####################################
@@ -67,84 +66,64 @@ def get_rolling_window_size() -> int:
     logger.info(f"Rolling window size: {window_size}")
     return window_size
 
+company_complaint_counts: defaultdict[str, int] = defaultdict(int)
 
 #####################################
 # Define a function to detect a stall
 #####################################
 
 
-def detect_stall(rolling_window_deque: deque) -> bool:
-    """
-    Detect a temperature stall based on the rolling window.
-
-    Args:
-        rolling_window_deque (deque): Rolling window of temperature readings.
-
-    Returns:
-        bool: True if a stall is detected, False otherwise.
-    """
-    WINDOW_SIZE: int = get_rolling_window_size()
-    if len(rolling_window_deque) < WINDOW_SIZE:
-        # We don't have a full deque yet
-        # Keep reading until the deque is full
-        logger.debug(
-            f"Rolling window size: {len(rolling_window_deque)}. Waiting for {WINDOW_SIZE}."
-        )
-        return False
-
-    # Once the deque is full we can calculate the temperature range
-    # Use Python's built-in min() and max() functions
-    # If the range is less than or equal to the threshold, we have a stall
-    # And our food is ready :)
-    temp_range = max(rolling_window_deque) - min(rolling_window_deque)
-    is_stalled: bool = temp_range <= get_stall_threshold()
-    logger.debug(f"Temperature range: {temp_range}°F. Stalled: {is_stalled}")
-    return is_stalled
-
-
-#####################################
-# Function to process a single message
-# #####################################
-
-
 def process_message(message: str, rolling_window: deque, window_size: int) -> None:
-    """
-    Process a JSON-transferred CSV message and check for stalls.
+       """
+       Process a billing monitoring message and check for violations.
 
-    Args:
-        message (str): JSON message received from Kafka.
-        rolling_window (deque): Rolling window of temperature readings.
-        window_size (int): Size of the rolling window.
-    """
-    try:
-        # Log the raw message for debugging
-        logger.debug(f"Raw message: {message}")
+       Args:
+           message (str): JSON message received from Kafka.
+           rolling_window (deque): Rolling window of complaint data (not used in this version).
+           window_size (int): Size of the rolling window (not used in this version).
+       """
+       try:
+           # Log the raw message for debugging
+           logger.debug(f"Raw message: {message}")
 
-        # Parse the JSON string into a Python dictionary
-        data: dict = json.loads(message)
-        temperature = data.get("temperature")
-        timestamp = data.get("timestamp")
-        logger.info(f"Processed JSON message: {data}")
+           # Parse the JSON string into a Python dictionary
+           data: dict = json.loads(message)
+           company = data.get("company")
+           amount = data.get("amount")
+           complaint_type = data.get("complaint_type")
+           timestamp = data.get("timestamp")
+           
+           logger.info(f"Processed billing message: {data}")
 
-        # Ensure the required fields are present
-        if temperature is None or timestamp is None:
-            logger.error(f"Invalid message format: {message}")
-            return
+           # Ensure the required fields are present
+           if company is None or amount is None or complaint_type is None:
+               logger.error(f"Invalid message format: {message}")
+               return
 
-        # Append the temperature reading to the rolling window
-        rolling_window.append(temperature)
+           # Track complaints (ignore "none" complaint types)
+           if complaint_type != "none":
+               company_complaint_counts[company] += 1
+               complaint_count = company_complaint_counts[company]
+               
+               logger.info(f" Billing complaint from {company}: ${amount} - {complaint_type}")
+               
+               if complaint_count >= 3:
+                   logger.warning(f"BILLING VIOLATION ALERT: {company} has {complaint_count} complaints - potential consumer protection issue!")
+               elif complaint_count >= 2:
+                   logger.warning(f"WATCH LIST: {company} has {complaint_count} complaints - monitoring closely")
+               else:
+                   logger.info(f"{company}: First complaint recorded ({complaint_type})")
+           else:
+               logger.info(f"Clean transaction: {company} - ${amount}")
 
-        # Check for a stall
-        if detect_stall(rolling_window):
-            logger.info(
-                f"STALL DETECTED at {timestamp}: Temp stable at {temperature}°F over last {window_size} readings."
-            )
+           # Log current complaint status
+           if company_complaint_counts:
+               logger.info(f"Current complaint counts: {dict(company_complaint_counts)}")
 
-    except json.JSONDecodeError as e:
-        logger.error(f"JSON decoding error for message '{message}': {e}")
-    except Exception as e:
-        logger.error(f"Error processing message '{message}': {e}")
-
+       except json.JSONDecodeError as e:
+           logger.error(f"JSON decoding error for message '{message}': {e}")
+       except Exception as e:
+           logger.error(f"Error processing message '{message}': {e}")
 
 #####################################
 # Define main function for this module
