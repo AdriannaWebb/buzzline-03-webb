@@ -1,10 +1,11 @@
 """
-csv_producer_case.py
+csv_producer_webb.py
 
-Stream numeric data to a Kafka topic.
+Stream billing monitoring data to a Kafka topic for consumer protection.
 
-It is common to transfer csv data as JSON so 
-each field is clearly labeled. 
+Example CSV data format:
+timestamp,company,amount,complaint_type
+2025-09-14 15:00:00,MegaCorp,29.99,unexpected_charge
 """
 
 #####################################
@@ -70,7 +71,7 @@ DATA_FOLDER = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE = DATA_FOLDER.joinpath("smoker_temps.csv")
+DATA_FILE = DATA_FOLDER.joinpath("billing_monitor.csv")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -79,43 +80,44 @@ logger.info(f"Data file: {DATA_FILE}")
 
 
 def generate_messages(file_path: pathlib.Path):
-    """
-    Read from a csv file and yield records one by one, continuously.
+       """
+       Read from a csv file and yield billing records one by one, continuously.
 
-    Args:
-        file_path (pathlib.Path): Path to the CSV file.
+       Args:
+           file_path (pathlib.Path): Path to the CSV file.
 
-    Yields:
-        str: CSV row formatted as a string.
-    """
-    while True:
-        try:
-            logger.info(f"Opening data file in read mode: {DATA_FILE}")
-            with open(DATA_FILE, "r") as csv_file:
-                logger.info(f"Reading data from file: {DATA_FILE}")
+       Yields:
+           dict: Billing data formatted as a dictionary.
+       """
+       while True:
+           try:
+               logger.info(f"Opening data file in read mode: {DATA_FILE}")
+               with open(DATA_FILE, "r") as csv_file:
+                   logger.info(f"Reading data from file: {DATA_FILE}")
 
-                csv_reader = csv.DictReader(csv_file)
-                for row in csv_reader:
-                    # Ensure required fields are present
-                    if "temperature" not in row:
-                        logger.error(f"Missing 'temperature' column in row: {row}")
-                        continue
+                   csv_reader = csv.DictReader(csv_file)
+                   for row in csv_reader:
+                       # Ensure required fields are present
+                       if "company" not in row or "amount" not in row:
+                           logger.error(f"Missing required columns in row: {row}")
+                           continue
 
-                    # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
-                    message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
-                    }
-                    logger.debug(f"Generated message: {message}")
-                    yield message
-        except FileNotFoundError:
-            logger.error(f"File not found: {file_path}. Exiting.")
-            sys.exit(1)
-        except Exception as e:
-            logger.error(f"Unexpected error in message generation: {e}")
-            sys.exit(3)
-
+                       # Generate a timestamp and prepare the message
+                       current_timestamp = datetime.utcnow().isoformat()
+                       message = {
+                           "timestamp": current_timestamp,
+                           "company": row["company"],
+                           "amount": float(row["amount"]),
+                           "complaint_type": row["complaint_type"]
+                       }
+                       logger.debug(f"Generated message: {message}")
+                       yield message
+           except FileNotFoundError:
+               logger.error(f"File not found: {file_path}. Exiting.")
+               sys.exit(1)
+           except Exception as e:
+               logger.error(f"Unexpected error in message generation: {e}")
+               sys.exit(3)
 
 #####################################
 # Define main function for this module.
