@@ -1,0 +1,16 @@
+timestamp,company,amount,complaint_type
+2025-09-14 15:00:00,MegaCorp,29.99,unexpected_charge
+2025-09-14 15:01:00,ShopFast,15.50,none
+2025-09-14 15:02:00,BargainMart,45.00,none
+2025-09-14 15:03:00,MegaCorp,29.99,billing_error
+2025-09-14 15:04:00,QuickBuy,12.99,none
+2025-09-14 15:05:00,DealHunter,89.99,overcharge
+2025-09-14 15:06:00,MegaCorp,29.99,unexpected_charge
+2025-09-14 15:07:00,SpamCorp,199.99,billing_error
+2025-09-14 15:08:00,ShopFast,15.50,none
+2025-09-14 15:09:00,MegaCorp,29.99,overcharge
+2025-09-14 15:10:00,BargainMart,45.00,none
+2025-09-14 15:11:00,SpamCorp,199.99,unexpected_charge
+2025-09-14 15:12:00,QuickBuy,12.99,none
+2025-09-14 15:13:00,MegaCorp,29.99,billing_error
+2025-09-14 15:14:00,DealHunter,89.99,none
