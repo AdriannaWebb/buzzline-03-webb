@@ -1,15 +1,11 @@
 """
-json_producer_case.py
+   json_producer_webb.py
 
-Stream JSON data to a Kafka topic.
+   Stream email monitoring data to a Kafka topic for consumer protection.
 
-Example JSON message
-{"message": "I love Python!", "author": "Eve"}
-
-Example serialized to Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
-
-"""
+   Example JSON message
+   {"company": "MegaCorp", "email_type": "promotional", "user_action": "unsubscribed"}
+   """
 
 #####################################
 # Import Modules
@@ -73,7 +69,7 @@ DATA_FOLDER: pathlib.Path = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("buzz.json")
+DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("email_monitor.json")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -103,9 +99,9 @@ def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None
                 json_data: list[Dict[str, Any]] = json.load(json_file)
 
                 # Iterate over the entries in the JSON file
-                for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry}")
-                    yield buzz_entry
+                for email_entry in json_data:
+                    logger.debug(f"Generated JSON: {email_entry}")
+                    yield email_entry
         
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
