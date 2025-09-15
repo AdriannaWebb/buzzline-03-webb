@@ -1,0 +1,502 @@
+[
+    {
+        "company": "BargainMart",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "newsletter",
+        "user_action": "ignored"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "newsletter",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "welcome_email",
+        "user_action": "clicked"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "newsletter",
+        "user_action": "clicked"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "newsletter",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "survey",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "sale_alert",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "welcome_email",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "newsletter",
+        "user_action": "clicked"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "clicked"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "newsletter",
+        "user_action": "clicked"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "survey",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "welcome_email",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "newsletter",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "survey",
+        "user_action": "clicked"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "sale_alert",
+        "user_action": "ignored"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "sale_alert",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "survey",
+        "user_action": "clicked"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "sale_alert",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "welcome_email",
+        "user_action": "clicked"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "newsletter",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "newsletter",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "promotional",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "sale_alert",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "promotional",
+        "user_action": "clicked"
+    },
+    {
+        "company": "MegaCorp",
+        "email_type": "welcome_email",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "survey",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "promotional",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "survey",
+        "user_action": "clicked"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "newsletter",
+        "user_action": "clicked"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "sale_alert",
+        "user_action": "clicked"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "SalesMaster",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "promotional",
+        "user_action": "ignored"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "welcome_email",
+        "user_action": "ignored"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "newsletter",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "QuickBuy",
+        "email_type": "newsletter",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "SpamCorp",
+        "email_type": "survey",
+        "user_action": "ignored"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "DealHunter",
+        "email_type": "welcome_email",
+        "user_action": "marked_spam"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "welcome_email",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ClickBait Inc",
+        "email_type": "newsletter",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    },
+    {
+        "company": "ShopFast",
+        "email_type": "welcome_email",
+        "user_action": "ignored"
+    },
+    {
+        "company": "BargainMart",
+        "email_type": "sale_alert",
+        "user_action": "unsubscribed"
+    }
+]

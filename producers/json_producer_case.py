@@ -45,6 +45,7 @@ load_dotenv()
 #####################################
 
 
+
 def get_kafka_topic() -> str:
     """Fetch Kafka topic from environment or use default."""
     topic = os.getenv("BUZZ_TOPIC", "unknown_topic")

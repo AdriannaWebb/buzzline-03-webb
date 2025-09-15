@@ -1,17 +1,11 @@
 """
-json_consumer_case.py
+   json_consumer_webb.py
 
-Consume json messages from a Kafka topic and process them.
+   Consume email monitoring messages and detect consumer protection violations.
 
-JSON is a set of key:value pairs. 
-
-Example serialized Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
-
-Example JSON message (after deserialization) to be analyzed
-{"message": "I love Python!", "author": "Eve"}
-
-"""
+   Example JSON message (after deserialization)
+   {"company": "MegaCorp", "email_type": "promotional", "user_action": "unsubscribed"}
+   """
 
 #####################################
 # Import Modules
@@ -65,6 +59,9 @@ def get_kafka_consumer_group_id() -> str:
 # {author: count} author is the key and count is the value
 author_counts: defaultdict[str, int] = defaultdict(int)
 
+# Initialize a dictionary to store company unsubscribe counts
+company_unsubscribe_counts: defaultdict[str, int] = defaultdict(int)
+
 
 #####################################
 # Function to process a single message
@@ -72,38 +69,47 @@ author_counts: defaultdict[str, int] = defaultdict(int)
 
 
 def process_message(message: str) -> None:
-    """
-    Process a single JSON message from Kafka.
+       """
+       Process a single JSON message for email monitoring.
 
-    Args:
-        message (str): The JSON message as a string.
-    """
-    try:
-        # Log the raw message for debugging
-        logger.debug(f"Raw message: {message}")
+       Args:
+           message (str): The JSON message as a string.
+       """
+       try:
+           # Log the raw message for debugging
+           logger.debug(f"Raw message: {message}")
 
-        # Parse the JSON string into a Python dictionary
-        from typing import Any
-        message_dict: dict[str, Any] = json.loads(message)
+           # Parse the JSON string into a Python dictionary
+           from typing import Any
+           message_dict: dict[str, Any] = json.loads(message)
 
-        # Ensure the processed JSON is logged for debugging
-        logger.info(f"Processed JSON message: {message_dict}")
+           # Ensure the processed JSON is logged for debugging
+           logger.info(f"Processed email monitoring message: {message_dict}")
 
-        # Extract the 'author' field from the Python dictionary
-        author = message_dict.get("author", "unknown")
-        logger.info(f"Message received from author: {author}")
+           # Extract fields from the message
+           company = message_dict.get("company", "unknown")
+           email_type = message_dict.get("email_type", "unknown")
+           user_action = message_dict.get("user_action", "unknown")
+           
+           logger.info(f"Email from {company} ({email_type}): User {user_action}")
 
-        # Increment the count for the author
-        author_counts[author] += 1
+           # Track unsubscribe attempts
+           if user_action == "unsubscribed":
+               company_unsubscribe_counts[company] += 1
+               unsubscribe_count = company_unsubscribe_counts[company]
+               
+               if unsubscribe_count >= 2:
+                   logger.warning(f"CONSUMER PROTECTION ALERT: {company} has {unsubscribe_count} unsubscribe attempts - potential violation!")
+               else:
+                   logger.info(f"{company}: First unsubscribe attempt recorded")
 
-        # Log the updated counts
-        logger.info(f"Updated author counts: {dict(author_counts)}")
+           # Log current violation status
+           logger.info(f"Current unsubscribe counts: {dict(company_unsubscribe_counts)}")
 
-    except json.JSONDecodeError:
-        logger.error(f"Invalid JSON message: {message}")
-    except Exception as e:
-        logger.error(f"Error processing message: {e}")
-
+       except json.JSONDecodeError:
+           logger.error(f"Invalid JSON message: {message}")
+       except Exception as e:
+           logger.error(f"Error processing message: {e}")
 
 #####################################
 # Define main function for this module
