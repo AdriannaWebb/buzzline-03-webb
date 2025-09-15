@@ -1,3 +1,5 @@
-2025-09-14 23:03:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:03.159631', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
-2025-09-14 23:03:03 | INFO | Clean transaction: DealHunter - $89.99
-2025-09-14 23:03:03 | INFO | Current complaint counts: {'MegaCorp': 9, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:09:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:48.390402', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:09:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:48.390402', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:09:48 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:09:48 | WARNING | BILLING VIOLATION ALERT: DealHunter has 8 complaints - potential consumer protection issue!
+2025-09-14 23:09:48 | INFO | Current complaint counts: {'MegaCorp': 36, 'DealHunter': 8, 'SpamCorp': 14}

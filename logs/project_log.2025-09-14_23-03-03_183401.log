@@ -1,0 +1,376 @@
+2025-09-14 23:03:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:03.159631', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:03:03 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:03:03 | INFO | Current complaint counts: {'MegaCorp': 9, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:08 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:03:08 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:03:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:08.169838', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:03:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:08.169838', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:03:08 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:03:08 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 10 complaints - potential consumer protection issue!
+2025-09-14 23:03:08 | INFO | Current complaint counts: {'MegaCorp': 10, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:13.178686', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:03:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:13.178686', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:03:13 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:03:13 | INFO | Current complaint counts: {'MegaCorp': 10, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:18.180540', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:03:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:18.180540', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:03:18 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:03:18 | INFO | Current complaint counts: {'MegaCorp': 10, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:23.182092', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:03:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:23.182092', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:03:23 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:03:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 11 complaints - potential consumer protection issue!
+2025-09-14 23:03:23 | INFO | Current complaint counts: {'MegaCorp': 11, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:28.184411', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:03:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:28.184411', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:03:28 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:03:28 | INFO | Current complaint counts: {'MegaCorp': 11, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:03:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:33.187445', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:03:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:33.187445', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:03:33 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:03:33 | WARNING | BILLING VIOLATION ALERT: DealHunter has 3 complaints - potential consumer protection issue!
+2025-09-14 23:03:33 | INFO | Current complaint counts: {'MegaCorp': 11, 'DealHunter': 3, 'SpamCorp': 4}
+2025-09-14 23:03:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:38.190643', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:03:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:38.190643', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:03:38 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:03:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 12 complaints - potential consumer protection issue!
+2025-09-14 23:03:38 | INFO | Current complaint counts: {'MegaCorp': 12, 'DealHunter': 3, 'SpamCorp': 4}
+2025-09-14 23:03:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:43.196250', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:03:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:43.196250', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:03:43 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:03:43 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 5 complaints - potential consumer protection issue!
+2025-09-14 23:03:43 | INFO | Current complaint counts: {'MegaCorp': 12, 'DealHunter': 3, 'SpamCorp': 5}
+2025-09-14 23:03:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:48.198744', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:03:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:48.198744', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:03:48 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:03:48 | INFO | Current complaint counts: {'MegaCorp': 12, 'DealHunter': 3, 'SpamCorp': 5}
+2025-09-14 23:03:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:53.201809', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:03:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:53.201809', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:03:53 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:03:53 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 13 complaints - potential consumer protection issue!
+2025-09-14 23:03:53 | INFO | Current complaint counts: {'MegaCorp': 13, 'DealHunter': 3, 'SpamCorp': 5}
+2025-09-14 23:03:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:03:58.206133', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:03:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:03:58.206133', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:03:58 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:03:58 | INFO | Current complaint counts: {'MegaCorp': 13, 'DealHunter': 3, 'SpamCorp': 5}
+2025-09-14 23:04:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:03.209242', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:03.209242', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:03 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:04:03 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 6 complaints - potential consumer protection issue!
+2025-09-14 23:04:03 | INFO | Current complaint counts: {'MegaCorp': 13, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:08.210877', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:04:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:08.210877', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:04:08 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:04:08 | INFO | Current complaint counts: {'MegaCorp': 13, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:13.215706', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:13.215706', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:13 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:04:13 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 14 complaints - potential consumer protection issue!
+2025-09-14 23:04:13 | INFO | Current complaint counts: {'MegaCorp': 14, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:18.219861', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:04:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:18.219861', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:04:18 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:04:18 | INFO | Current complaint counts: {'MegaCorp': 14, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:23 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:04:23 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:04:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:23.226358', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:23.226358', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:23 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:04:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 15 complaints - potential consumer protection issue!
+2025-09-14 23:04:23 | INFO | Current complaint counts: {'MegaCorp': 15, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:28.228566', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:04:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:28.228566', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:04:28 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:04:28 | INFO | Current complaint counts: {'MegaCorp': 15, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:33.232073', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:04:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:33.232073', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:04:33 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:04:33 | INFO | Current complaint counts: {'MegaCorp': 15, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:38.236558', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:38.236558', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:38 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:04:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 16 complaints - potential consumer protection issue!
+2025-09-14 23:04:38 | INFO | Current complaint counts: {'MegaCorp': 16, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:43.240539', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:04:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:43.240539', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:04:43 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:04:43 | INFO | Current complaint counts: {'MegaCorp': 16, 'DealHunter': 3, 'SpamCorp': 6}
+2025-09-14 23:04:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:48.243959', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:04:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:48.243959', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:04:48 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:04:48 | WARNING | BILLING VIOLATION ALERT: DealHunter has 4 complaints - potential consumer protection issue!
+2025-09-14 23:04:48 | INFO | Current complaint counts: {'MegaCorp': 16, 'DealHunter': 4, 'SpamCorp': 6}
+2025-09-14 23:04:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:53.245652', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:53.245652', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:04:53 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:04:53 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 17 complaints - potential consumer protection issue!
+2025-09-14 23:04:53 | INFO | Current complaint counts: {'MegaCorp': 17, 'DealHunter': 4, 'SpamCorp': 6}
+2025-09-14 23:04:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:04:58.247811', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:04:58.247811', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:04:58 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:04:58 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 7 complaints - potential consumer protection issue!
+2025-09-14 23:04:58 | INFO | Current complaint counts: {'MegaCorp': 17, 'DealHunter': 4, 'SpamCorp': 7}
+2025-09-14 23:05:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:03.250912', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:05:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:03.250912', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:05:03 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:05:03 | INFO | Current complaint counts: {'MegaCorp': 17, 'DealHunter': 4, 'SpamCorp': 7}
+2025-09-14 23:05:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:08.252443', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:05:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:08.252443', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:05:08 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:05:08 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 18 complaints - potential consumer protection issue!
+2025-09-14 23:05:08 | INFO | Current complaint counts: {'MegaCorp': 18, 'DealHunter': 4, 'SpamCorp': 7}
+2025-09-14 23:05:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:13.254297', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:05:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:13.254297', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:05:13 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:05:13 | INFO | Current complaint counts: {'MegaCorp': 18, 'DealHunter': 4, 'SpamCorp': 7}
+2025-09-14 23:05:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:18.259413', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:05:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:18.259413', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:05:18 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:05:18 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 8 complaints - potential consumer protection issue!
+2025-09-14 23:05:18 | INFO | Current complaint counts: {'MegaCorp': 18, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:23.261398', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:05:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:23.261398', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:05:23 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:05:23 | INFO | Current complaint counts: {'MegaCorp': 18, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:28.265550', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:05:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:28.265550', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:05:28 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:05:28 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 19 complaints - potential consumer protection issue!
+2025-09-14 23:05:28 | INFO | Current complaint counts: {'MegaCorp': 19, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:33.268647', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:05:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:33.268647', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:05:33 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:05:33 | INFO | Current complaint counts: {'MegaCorp': 19, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:38 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:05:38 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:05:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:38.276113', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:05:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:38.276113', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:05:38 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:05:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 20 complaints - potential consumer protection issue!
+2025-09-14 23:05:38 | INFO | Current complaint counts: {'MegaCorp': 20, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:43.278244', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:05:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:43.278244', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:05:43 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:05:43 | INFO | Current complaint counts: {'MegaCorp': 20, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:48.280088', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:05:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:48.280088', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:05:48 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:05:48 | INFO | Current complaint counts: {'MegaCorp': 20, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:53.283006', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:05:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:53.283006', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:05:53 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:05:53 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 21 complaints - potential consumer protection issue!
+2025-09-14 23:05:53 | INFO | Current complaint counts: {'MegaCorp': 21, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:05:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:05:58.284975', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:05:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:05:58.284975', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:05:58 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:05:58 | INFO | Current complaint counts: {'MegaCorp': 21, 'DealHunter': 4, 'SpamCorp': 8}
+2025-09-14 23:06:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:03.287276', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:06:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:03.287276', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:06:03 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:06:03 | WARNING | BILLING VIOLATION ALERT: DealHunter has 5 complaints - potential consumer protection issue!
+2025-09-14 23:06:03 | INFO | Current complaint counts: {'MegaCorp': 21, 'DealHunter': 5, 'SpamCorp': 8}
+2025-09-14 23:06:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:08.290534', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:08.290534', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:08 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:06:08 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 22 complaints - potential consumer protection issue!
+2025-09-14 23:06:08 | INFO | Current complaint counts: {'MegaCorp': 22, 'DealHunter': 5, 'SpamCorp': 8}
+2025-09-14 23:06:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:13.291679', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:06:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:13.291679', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:06:13 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:06:13 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 9 complaints - potential consumer protection issue!
+2025-09-14 23:06:13 | INFO | Current complaint counts: {'MegaCorp': 22, 'DealHunter': 5, 'SpamCorp': 9}
+2025-09-14 23:06:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:18.292742', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:06:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:18.292742', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:06:18 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:06:18 | INFO | Current complaint counts: {'MegaCorp': 22, 'DealHunter': 5, 'SpamCorp': 9}
+2025-09-14 23:06:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:23.294911', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:06:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:23.294911', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:06:23 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:06:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 23 complaints - potential consumer protection issue!
+2025-09-14 23:06:23 | INFO | Current complaint counts: {'MegaCorp': 23, 'DealHunter': 5, 'SpamCorp': 9}
+2025-09-14 23:06:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:28.296533', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:06:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:28.296533', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:06:28 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:06:28 | INFO | Current complaint counts: {'MegaCorp': 23, 'DealHunter': 5, 'SpamCorp': 9}
+2025-09-14 23:06:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:33.298016', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:33.298016', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:33 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:06:33 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 10 complaints - potential consumer protection issue!
+2025-09-14 23:06:33 | INFO | Current complaint counts: {'MegaCorp': 23, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:06:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:38.299533', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:06:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:38.299533', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:06:38 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:06:38 | INFO | Current complaint counts: {'MegaCorp': 23, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:06:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:43.300611', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:06:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:43.300611', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:06:43 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:06:43 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 24 complaints - potential consumer protection issue!
+2025-09-14 23:06:43 | INFO | Current complaint counts: {'MegaCorp': 24, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:06:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:48.302155', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:06:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:48.302155', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:06:48 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:06:48 | INFO | Current complaint counts: {'MegaCorp': 24, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:06:53 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:06:53 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:06:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:53.305537', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:53.305537', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:06:53 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:06:53 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 25 complaints - potential consumer protection issue!
+2025-09-14 23:06:53 | INFO | Current complaint counts: {'MegaCorp': 25, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:06:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:06:58.307168', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:06:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:06:58.307168', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:06:58 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:06:58 | INFO | Current complaint counts: {'MegaCorp': 25, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:07:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:03.308220', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:07:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:03.308220', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:07:03 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:07:03 | INFO | Current complaint counts: {'MegaCorp': 25, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:07:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:08.309851', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:08.309851', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:08 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:07:08 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 26 complaints - potential consumer protection issue!
+2025-09-14 23:07:08 | INFO | Current complaint counts: {'MegaCorp': 26, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:07:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:13.311156', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:07:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:13.311156', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:07:13 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:07:13 | INFO | Current complaint counts: {'MegaCorp': 26, 'DealHunter': 5, 'SpamCorp': 10}
+2025-09-14 23:07:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:18.313311', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:07:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:18.313311', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:07:18 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:07:18 | WARNING | BILLING VIOLATION ALERT: DealHunter has 6 complaints - potential consumer protection issue!
+2025-09-14 23:07:18 | INFO | Current complaint counts: {'MegaCorp': 26, 'DealHunter': 6, 'SpamCorp': 10}
+2025-09-14 23:07:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:23.315363', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:07:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:23.315363', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:07:23 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:07:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 27 complaints - potential consumer protection issue!
+2025-09-14 23:07:23 | INFO | Current complaint counts: {'MegaCorp': 27, 'DealHunter': 6, 'SpamCorp': 10}
+2025-09-14 23:07:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:28.320020', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:28.320020', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:28 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:07:28 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 11 complaints - potential consumer protection issue!
+2025-09-14 23:07:28 | INFO | Current complaint counts: {'MegaCorp': 27, 'DealHunter': 6, 'SpamCorp': 11}
+2025-09-14 23:07:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:33.323198', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:07:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:33.323198', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:07:33 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:07:33 | INFO | Current complaint counts: {'MegaCorp': 27, 'DealHunter': 6, 'SpamCorp': 11}
+2025-09-14 23:07:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:38.324553', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:07:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:38.324553', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:07:38 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:07:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 28 complaints - potential consumer protection issue!
+2025-09-14 23:07:38 | INFO | Current complaint counts: {'MegaCorp': 28, 'DealHunter': 6, 'SpamCorp': 11}
+2025-09-14 23:07:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:43.327513', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:07:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:43.327513', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:07:43 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:07:43 | INFO | Current complaint counts: {'MegaCorp': 28, 'DealHunter': 6, 'SpamCorp': 11}
+2025-09-14 23:07:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:48.328174', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:07:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:48.328174', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:07:48 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:07:48 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 12 complaints - potential consumer protection issue!
+2025-09-14 23:07:48 | INFO | Current complaint counts: {'MegaCorp': 28, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:07:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:53.329029', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:07:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:53.329029', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:07:53 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:07:53 | INFO | Current complaint counts: {'MegaCorp': 28, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:07:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:07:58.331328', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:07:58.331328', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:07:58 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:07:58 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 29 complaints - potential consumer protection issue!
+2025-09-14 23:07:58 | INFO | Current complaint counts: {'MegaCorp': 29, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:03.332760', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:08:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:03.332760', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:08:03 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:08:03 | INFO | Current complaint counts: {'MegaCorp': 29, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:08 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:08:08 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:08:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:08.335836', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:08:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:08.335836', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:08:08 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:08:08 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 30 complaints - potential consumer protection issue!
+2025-09-14 23:08:08 | INFO | Current complaint counts: {'MegaCorp': 30, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:13.338036', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:08:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:13.338036', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:08:13 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:08:13 | INFO | Current complaint counts: {'MegaCorp': 30, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:18.341434', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:08:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:18.341434', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:08:18 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:08:18 | INFO | Current complaint counts: {'MegaCorp': 30, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:23.346565', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:08:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:23.346565', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:08:23 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:08:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 31 complaints - potential consumer protection issue!
+2025-09-14 23:08:23 | INFO | Current complaint counts: {'MegaCorp': 31, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:28.350095', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:08:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:28.350095', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:08:28 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:08:28 | INFO | Current complaint counts: {'MegaCorp': 31, 'DealHunter': 6, 'SpamCorp': 12}
+2025-09-14 23:08:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:33.351177', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:08:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:33.351177', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:08:33 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:08:33 | WARNING | BILLING VIOLATION ALERT: DealHunter has 7 complaints - potential consumer protection issue!
+2025-09-14 23:08:33 | INFO | Current complaint counts: {'MegaCorp': 31, 'DealHunter': 7, 'SpamCorp': 12}
+2025-09-14 23:08:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:38.352536', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:08:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:38.352536', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:08:38 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:08:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 32 complaints - potential consumer protection issue!
+2025-09-14 23:08:38 | INFO | Current complaint counts: {'MegaCorp': 32, 'DealHunter': 7, 'SpamCorp': 12}
+2025-09-14 23:08:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:43.354121', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:08:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:43.354121', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:08:43 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:08:43 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 13 complaints - potential consumer protection issue!
+2025-09-14 23:08:43 | INFO | Current complaint counts: {'MegaCorp': 32, 'DealHunter': 7, 'SpamCorp': 13}
+2025-09-14 23:08:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:48.355402', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:08:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:48.355402', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:08:48 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:08:48 | INFO | Current complaint counts: {'MegaCorp': 32, 'DealHunter': 7, 'SpamCorp': 13}
+2025-09-14 23:08:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:53.358676', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:08:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:53.358676', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:08:53 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:08:53 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 33 complaints - potential consumer protection issue!
+2025-09-14 23:08:53 | INFO | Current complaint counts: {'MegaCorp': 33, 'DealHunter': 7, 'SpamCorp': 13}
+2025-09-14 23:08:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:08:58.360725', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:08:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:08:58.360725', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:08:58 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:08:58 | INFO | Current complaint counts: {'MegaCorp': 33, 'DealHunter': 7, 'SpamCorp': 13}
+2025-09-14 23:09:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:03.363386', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:09:03 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:03.363386', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:09:03 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:09:03 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 14 complaints - potential consumer protection issue!
+2025-09-14 23:09:03 | INFO | Current complaint counts: {'MegaCorp': 33, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:08.365644', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:09:08 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:08.365644', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:09:08 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:09:08 | INFO | Current complaint counts: {'MegaCorp': 33, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:13.367142', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:09:13 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:13.367142', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:09:13 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:09:13 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 34 complaints - potential consumer protection issue!
+2025-09-14 23:09:13 | INFO | Current complaint counts: {'MegaCorp': 34, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:18.370042', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:09:18 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:18.370042', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:09:18 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:09:18 | INFO | Current complaint counts: {'MegaCorp': 34, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:23 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:09:23 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:09:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:23.375076', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:09:23 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:23.375076', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:09:23 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:09:23 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 35 complaints - potential consumer protection issue!
+2025-09-14 23:09:23 | INFO | Current complaint counts: {'MegaCorp': 35, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:28.380612', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:09:28 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:28.380612', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:09:28 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:09:28 | INFO | Current complaint counts: {'MegaCorp': 35, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:33.383287', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:09:33 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:33.383287', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:09:33 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:09:33 | INFO | Current complaint counts: {'MegaCorp': 35, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:38.386192', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:09:38 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:38.386192', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:09:38 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:09:38 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 36 complaints - potential consumer protection issue!
+2025-09-14 23:09:38 | INFO | Current complaint counts: {'MegaCorp': 36, 'DealHunter': 7, 'SpamCorp': 14}
+2025-09-14 23:09:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:09:43.388179', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:09:43 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:09:43.388179', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:09:43 | INFO | Clean transaction: QuickBuy - $12.99
