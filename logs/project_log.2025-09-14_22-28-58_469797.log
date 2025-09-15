@@ -1,0 +1,423 @@
+2025-09-14 22:28:58 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:28:58 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:28:58 | INFO | Email from MegaCorp (newsletter): User unsubscribed
+2025-09-14 22:28:58 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 9 unsubscribe attempts - potential violation!
+2025-09-14 22:28:58 | INFO | Current unsubscribe counts: {'MegaCorp': 9, 'SpamCorp': 4, 'ShopFast': 2}
+2025-09-14 22:28:59 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:28:59 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:28:59 | INFO | Email from SpamCorp (promotional): User unsubscribed
+2025-09-14 22:28:59 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 5 unsubscribe attempts - potential violation!
+2025-09-14 22:28:59 | INFO | Current unsubscribe counts: {'MegaCorp': 9, 'SpamCorp': 5, 'ShopFast': 2}
+2025-09-14 22:29:00 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:00 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:00 | INFO | Email from ShopFast (sale_alert): User unsubscribed
+2025-09-14 22:29:00 | WARNING | CONSUMER PROTECTION ALERT: ShopFast has 3 unsubscribe attempts - potential violation!
+2025-09-14 22:29:00 | INFO | Current unsubscribe counts: {'MegaCorp': 9, 'SpamCorp': 5, 'ShopFast': 3}
+2025-09-14 22:29:01 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:01 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:01 | INFO | Email from SpamCorp (survey): User unsubscribed
+2025-09-14 22:29:01 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 6 unsubscribe attempts - potential violation!
+2025-09-14 22:29:01 | INFO | Current unsubscribe counts: {'MegaCorp': 9, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:02 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:02 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:02 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:02 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:02 | INFO | Email from MegaCorp (promotional): User unsubscribed
+2025-09-14 22:29:02 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 10 unsubscribe attempts - potential violation!
+2025-09-14 22:29:02 | INFO | Current unsubscribe counts: {'MegaCorp': 10, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:03 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:03 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:03 | INFO | Email from ShopFast (newsletter): User clicked
+2025-09-14 22:29:03 | INFO | Current unsubscribe counts: {'MegaCorp': 10, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:04 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:04 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:04 | INFO | Email from MegaCorp (sale_alert): User unsubscribed
+2025-09-14 22:29:04 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 11 unsubscribe attempts - potential violation!
+2025-09-14 22:29:04 | INFO | Current unsubscribe counts: {'MegaCorp': 11, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:05 | INFO | Sent message to topic 'buzzline_json': {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:05 | INFO | Processed email monitoring message: {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:05 | INFO | Email from DealHunter (survey): User ignored
+2025-09-14 22:29:05 | INFO | Current unsubscribe counts: {'MegaCorp': 11, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:06 | INFO | Sent message to topic 'buzzline_json': {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:06 | INFO | Processed email monitoring message: {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:06 | INFO | Email from BargainMart (promotional): User marked_spam
+2025-09-14 22:29:06 | INFO | Current unsubscribe counts: {'MegaCorp': 11, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:07 | INFO | Sent message to topic 'buzzline_json': {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:07 | INFO | Processed email monitoring message: {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:07 | INFO | Email from QuickBuy (welcome_email): User clicked
+2025-09-14 22:29:07 | INFO | Current unsubscribe counts: {'MegaCorp': 11, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:08 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:08 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:08 | INFO | Email from MegaCorp (newsletter): User unsubscribed
+2025-09-14 22:29:08 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 12 unsubscribe attempts - potential violation!
+2025-09-14 22:29:08 | INFO | Current unsubscribe counts: {'MegaCorp': 12, 'SpamCorp': 6, 'ShopFast': 3}
+2025-09-14 22:29:09 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:09 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:09 | INFO | Email from SpamCorp (promotional): User unsubscribed
+2025-09-14 22:29:09 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 7 unsubscribe attempts - potential violation!
+2025-09-14 22:29:09 | INFO | Current unsubscribe counts: {'MegaCorp': 12, 'SpamCorp': 7, 'ShopFast': 3}
+2025-09-14 22:29:10 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:10 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:10 | INFO | Email from ShopFast (sale_alert): User unsubscribed
+2025-09-14 22:29:10 | WARNING | CONSUMER PROTECTION ALERT: ShopFast has 4 unsubscribe attempts - potential violation!
+2025-09-14 22:29:10 | INFO | Current unsubscribe counts: {'MegaCorp': 12, 'SpamCorp': 7, 'ShopFast': 4}
+2025-09-14 22:29:11 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:11 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:11 | INFO | Email from SpamCorp (survey): User unsubscribed
+2025-09-14 22:29:11 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 8 unsubscribe attempts - potential violation!
+2025-09-14 22:29:11 | INFO | Current unsubscribe counts: {'MegaCorp': 12, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:12 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:12 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:12 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:12 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:12 | INFO | Email from MegaCorp (promotional): User unsubscribed
+2025-09-14 22:29:12 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 13 unsubscribe attempts - potential violation!
+2025-09-14 22:29:12 | INFO | Current unsubscribe counts: {'MegaCorp': 13, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:13 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:13 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:13 | INFO | Email from ShopFast (newsletter): User clicked
+2025-09-14 22:29:13 | INFO | Current unsubscribe counts: {'MegaCorp': 13, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:14 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:14 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:14 | INFO | Email from MegaCorp (sale_alert): User unsubscribed
+2025-09-14 22:29:14 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 14 unsubscribe attempts - potential violation!
+2025-09-14 22:29:14 | INFO | Current unsubscribe counts: {'MegaCorp': 14, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:15 | INFO | Sent message to topic 'buzzline_json': {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:15 | INFO | Processed email monitoring message: {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:15 | INFO | Email from DealHunter (survey): User ignored
+2025-09-14 22:29:15 | INFO | Current unsubscribe counts: {'MegaCorp': 14, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:16 | INFO | Sent message to topic 'buzzline_json': {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:16 | INFO | Processed email monitoring message: {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:16 | INFO | Email from BargainMart (promotional): User marked_spam
+2025-09-14 22:29:16 | INFO | Current unsubscribe counts: {'MegaCorp': 14, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:17 | INFO | Sent message to topic 'buzzline_json': {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:17 | INFO | Processed email monitoring message: {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:17 | INFO | Email from QuickBuy (welcome_email): User clicked
+2025-09-14 22:29:17 | INFO | Current unsubscribe counts: {'MegaCorp': 14, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:18 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:18 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:18 | INFO | Email from MegaCorp (newsletter): User unsubscribed
+2025-09-14 22:29:18 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 15 unsubscribe attempts - potential violation!
+2025-09-14 22:29:18 | INFO | Current unsubscribe counts: {'MegaCorp': 15, 'SpamCorp': 8, 'ShopFast': 4}
+2025-09-14 22:29:19 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:19 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:19 | INFO | Email from SpamCorp (promotional): User unsubscribed
+2025-09-14 22:29:19 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 9 unsubscribe attempts - potential violation!
+2025-09-14 22:29:19 | INFO | Current unsubscribe counts: {'MegaCorp': 15, 'SpamCorp': 9, 'ShopFast': 4}
+2025-09-14 22:29:20 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:20 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:20 | INFO | Email from ShopFast (sale_alert): User unsubscribed
+2025-09-14 22:29:20 | WARNING | CONSUMER PROTECTION ALERT: ShopFast has 5 unsubscribe attempts - potential violation!
+2025-09-14 22:29:20 | INFO | Current unsubscribe counts: {'MegaCorp': 15, 'SpamCorp': 9, 'ShopFast': 5}
+2025-09-14 22:29:21 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:21 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:21 | INFO | Email from SpamCorp (survey): User unsubscribed
+2025-09-14 22:29:21 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 10 unsubscribe attempts - potential violation!
+2025-09-14 22:29:21 | INFO | Current unsubscribe counts: {'MegaCorp': 15, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:22 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:22 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:22 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:22 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:22 | INFO | Email from MegaCorp (promotional): User unsubscribed
+2025-09-14 22:29:22 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 16 unsubscribe attempts - potential violation!
+2025-09-14 22:29:22 | INFO | Current unsubscribe counts: {'MegaCorp': 16, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:23 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:23 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:23 | INFO | Email from ShopFast (newsletter): User clicked
+2025-09-14 22:29:23 | INFO | Current unsubscribe counts: {'MegaCorp': 16, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:24 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:24 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:24 | INFO | Email from MegaCorp (sale_alert): User unsubscribed
+2025-09-14 22:29:24 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 17 unsubscribe attempts - potential violation!
+2025-09-14 22:29:24 | INFO | Current unsubscribe counts: {'MegaCorp': 17, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:25 | INFO | Sent message to topic 'buzzline_json': {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:25 | INFO | Processed email monitoring message: {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:25 | INFO | Email from DealHunter (survey): User ignored
+2025-09-14 22:29:25 | INFO | Current unsubscribe counts: {'MegaCorp': 17, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:26 | INFO | Sent message to topic 'buzzline_json': {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:26 | INFO | Processed email monitoring message: {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:26 | INFO | Email from BargainMart (promotional): User marked_spam
+2025-09-14 22:29:26 | INFO | Current unsubscribe counts: {'MegaCorp': 17, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:27 | INFO | Sent message to topic 'buzzline_json': {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:27 | INFO | Processed email monitoring message: {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:27 | INFO | Email from QuickBuy (welcome_email): User clicked
+2025-09-14 22:29:27 | INFO | Current unsubscribe counts: {'MegaCorp': 17, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:28 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:28 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:28 | INFO | Email from MegaCorp (newsletter): User unsubscribed
+2025-09-14 22:29:28 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 18 unsubscribe attempts - potential violation!
+2025-09-14 22:29:28 | INFO | Current unsubscribe counts: {'MegaCorp': 18, 'SpamCorp': 10, 'ShopFast': 5}
+2025-09-14 22:29:29 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:29 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:29 | INFO | Email from SpamCorp (promotional): User unsubscribed
+2025-09-14 22:29:29 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 11 unsubscribe attempts - potential violation!
+2025-09-14 22:29:29 | INFO | Current unsubscribe counts: {'MegaCorp': 18, 'SpamCorp': 11, 'ShopFast': 5}
+2025-09-14 22:29:30 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:30 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:30 | INFO | Email from ShopFast (sale_alert): User unsubscribed
+2025-09-14 22:29:30 | WARNING | CONSUMER PROTECTION ALERT: ShopFast has 6 unsubscribe attempts - potential violation!
+2025-09-14 22:29:30 | INFO | Current unsubscribe counts: {'MegaCorp': 18, 'SpamCorp': 11, 'ShopFast': 6}
+2025-09-14 22:29:31 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:31 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:31 | INFO | Email from SpamCorp (survey): User unsubscribed
+2025-09-14 22:29:31 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 12 unsubscribe attempts - potential violation!
+2025-09-14 22:29:31 | INFO | Current unsubscribe counts: {'MegaCorp': 18, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:32 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:32 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:32 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:32 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:32 | INFO | Email from MegaCorp (promotional): User unsubscribed
+2025-09-14 22:29:32 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 19 unsubscribe attempts - potential violation!
+2025-09-14 22:29:32 | INFO | Current unsubscribe counts: {'MegaCorp': 19, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:33 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:33 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:33 | INFO | Email from ShopFast (newsletter): User clicked
+2025-09-14 22:29:33 | INFO | Current unsubscribe counts: {'MegaCorp': 19, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:34 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:34 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:34 | INFO | Email from MegaCorp (sale_alert): User unsubscribed
+2025-09-14 22:29:34 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 20 unsubscribe attempts - potential violation!
+2025-09-14 22:29:34 | INFO | Current unsubscribe counts: {'MegaCorp': 20, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:35 | INFO | Sent message to topic 'buzzline_json': {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:35 | INFO | Processed email monitoring message: {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:35 | INFO | Email from DealHunter (survey): User ignored
+2025-09-14 22:29:35 | INFO | Current unsubscribe counts: {'MegaCorp': 20, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:36 | INFO | Sent message to topic 'buzzline_json': {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:36 | INFO | Processed email monitoring message: {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:36 | INFO | Email from BargainMart (promotional): User marked_spam
+2025-09-14 22:29:36 | INFO | Current unsubscribe counts: {'MegaCorp': 20, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:37 | INFO | Sent message to topic 'buzzline_json': {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:37 | INFO | Processed email monitoring message: {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:37 | INFO | Email from QuickBuy (welcome_email): User clicked
+2025-09-14 22:29:37 | INFO | Current unsubscribe counts: {'MegaCorp': 20, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:38 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:38 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:38 | INFO | Email from MegaCorp (newsletter): User unsubscribed
+2025-09-14 22:29:38 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 21 unsubscribe attempts - potential violation!
+2025-09-14 22:29:38 | INFO | Current unsubscribe counts: {'MegaCorp': 21, 'SpamCorp': 12, 'ShopFast': 6}
+2025-09-14 22:29:39 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:39 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:39 | INFO | Email from SpamCorp (promotional): User unsubscribed
+2025-09-14 22:29:39 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 13 unsubscribe attempts - potential violation!
+2025-09-14 22:29:39 | INFO | Current unsubscribe counts: {'MegaCorp': 21, 'SpamCorp': 13, 'ShopFast': 6}
+2025-09-14 22:29:40 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:40 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:40 | INFO | Email from ShopFast (sale_alert): User unsubscribed
+2025-09-14 22:29:40 | WARNING | CONSUMER PROTECTION ALERT: ShopFast has 7 unsubscribe attempts - potential violation!
+2025-09-14 22:29:40 | INFO | Current unsubscribe counts: {'MegaCorp': 21, 'SpamCorp': 13, 'ShopFast': 7}
+2025-09-14 22:29:41 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:41 | INFO | Processed email monitoring message: {'company': 'SpamCorp', 'email_type': 'survey', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:41 | INFO | Email from SpamCorp (survey): User unsubscribed
+2025-09-14 22:29:41 | WARNING | CONSUMER PROTECTION ALERT: SpamCorp has 14 unsubscribe attempts - potential violation!
+2025-09-14 22:29:41 | INFO | Current unsubscribe counts: {'MegaCorp': 21, 'SpamCorp': 14, 'ShopFast': 7}
+2025-09-14 22:29:42 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:42 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/email_monitor.json
+2025-09-14 22:29:42 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:42 | INFO | Processed email monitoring message: {'company': 'MegaCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:42 | INFO | Email from MegaCorp (promotional): User unsubscribed
+2025-09-14 22:29:42 | WARNING | CONSUMER PROTECTION ALERT: MegaCorp has 22 unsubscribe attempts - potential violation!
+2025-09-14 22:29:42 | INFO | Current unsubscribe counts: {'MegaCorp': 22, 'SpamCorp': 14, 'ShopFast': 7}
+2025-09-14 22:29:43 | INFO | Sent message to topic 'buzzline_json': {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:43 | INFO | Processed email monitoring message: {'company': 'ShopFast', 'email_type': 'newsletter', 'user_action': 'clicked'}
+2025-09-14 22:29:43 | INFO | Email from ShopFast (newsletter): User clicked
+2025-09-14 22:29:43 | INFO | Current unsubscribe counts: {'MegaCorp': 22, 'SpamCorp': 14, 'ShopFast': 7}
+2025-09-14 22:29:44 | WARNING | Consumer interrupted by user.
+2025-09-14 22:29:44 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-14 22:29:44 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-14 22:29:44 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:45 | INFO | Sent message to topic 'buzzline_json': {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
+2025-09-14 22:29:46 | INFO | Sent message to topic 'buzzline_json': {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
+2025-09-14 22:29:47 | INFO | Sent message to topic 'buzzline_json': {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
+2025-09-14 22:29:48 | INFO | Sent message to topic 'buzzline_json': {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:49 | INFO | Sent message to topic 'buzzline_json': {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
+2025-09-14 22:29:50 | WARNING | Producer interrupted by user.
+2025-09-14 22:29:50 | INFO | Kafka producer closed.
+2025-09-14 22:29:50 | INFO | END producer.
+2025-09-14 22:59:32 | INFO | Logging to file: logs/project_log.log
+2025-09-14 22:59:32 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 22:59:32 | INFO | Project root: C:/Users/USER/Documents/buzzline-03-webb
+2025-09-14 22:59:32 | INFO | Data folder: C:/Users/USER/Documents/buzzline-03-webb/data
+2025-09-14 22:59:32 | INFO | Data file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 22:59:32 | INFO | START producer.
+2025-09-14 22:59:32 | INFO | Kafka broker address: localhost:9092
+2025-09-14 22:59:32 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'ieOMVdv6S1CLudWlH7ql2A', 'controller_id': 1}
+2025-09-14 22:59:32 | INFO | Kafka topic: smoker_csv
+2025-09-14 22:59:32 | INFO | Message interval: 5 seconds
+2025-09-14 22:59:32 | INFO | Kafka broker address: localhost:9092
+2025-09-14 22:59:32 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 22:59:33 | INFO | Kafka producer successfully created.
+2025-09-14 22:59:33 | INFO | Kafka broker address: localhost:9092
+2025-09-14 22:59:33 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-14 22:59:33 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-14 22:59:33 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-14 22:59:33 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-14 22:59:33 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-14 22:59:33 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 22:59:33 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 22:59:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T03:59:33.445217', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 22:59:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T03:59:38.448086', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 22:59:42 | WARNING | Producer interrupted by user.
+2025-09-14 22:59:42 | INFO | Kafka producer closed.
+2025-09-14 22:59:42 | INFO | END producer.
+2025-09-14 23:00:37 | INFO | Logging to file: logs/project_log.log
+2025-09-14 23:00:37 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 23:00:37 | INFO | Project root: C:/Users/USER/Documents/buzzline-03-webb
+2025-09-14 23:00:37 | INFO | Data folder: C:/Users/USER/Documents/buzzline-03-webb/data
+2025-09-14 23:00:37 | INFO | Data file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:00:37 | INFO | START producer.
+2025-09-14 23:00:37 | INFO | Kafka broker address: localhost:9092
+2025-09-14 23:00:37 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'ieOMVdv6S1CLudWlH7ql2A', 'controller_id': 1}
+2025-09-14 23:00:37 | INFO | Kafka topic: smoker_csv
+2025-09-14 23:00:37 | INFO | Message interval: 5 seconds
+2025-09-14 23:00:37 | INFO | Kafka broker address: localhost:9092
+2025-09-14 23:00:37 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-14 23:00:37 | INFO | Kafka producer successfully created.
+2025-09-14 23:00:37 | INFO | Kafka broker address: localhost:9092
+2025-09-14 23:00:37 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-14 23:00:37 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-14 23:00:38 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-14 23:00:38 | INFO | Kafka topic 'smoker_csv' is ready.
+2025-09-14 23:00:38 | INFO | Starting message production to topic 'smoker_csv'...
+2025-09-14 23:00:38 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:00:38 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:00:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:00:38.063231', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:00:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:00:43.072201', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:00:48 | INFO | Logging to file: logs/project_log.log
+2025-09-14 23:00:48 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 23:00:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:00:48.075970', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:00:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:00:53.077457', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:00:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:00:58.080311', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:01:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:03.082429', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:01:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:08.083727', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:01:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:13.086249', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:01:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:18.091094', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:01:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:23.092858', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:01:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:28.095513', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:01:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:33.097479', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:01:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:38.100902', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:01:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:43.104938', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:01:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:48.108855', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:01:53 | INFO | Opening data file in read mode: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:01:53 | INFO | Reading data from file: C:/Users/USER/Documents/buzzline-03-webb/data/billing_monitor.csv
+2025-09-14 23:01:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:53.117734', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:01:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:01:58.121360', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:03 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:03.123191', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:08 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:08.126084', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:13 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:13.130949', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:18 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:18.136627', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:23 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:23.141460', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:28 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:28.143344', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:33 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:33.145380', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:38 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:38.149339', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:43 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:43.151613', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:44 | INFO | Logging to file: logs/project_log.log
+2025-09-14 23:02:44 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 23:02:44 | INFO | START consumer.
+2025-09-14 23:02:44 | INFO | Kafka topic: smoker_csv
+2025-09-14 23:02:44 | INFO | Kafka consumer group id: smoker_group
+2025-09-14 23:02:44 | INFO | Rolling window size: 10
+2025-09-14 23:02:44 | INFO | Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-14 23:02:44 | INFO | Rolling window size: 10
+2025-09-14 23:02:44 | INFO | Kafka broker address: localhost:9092
+2025-09-14 23:02:44 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-14 23:02:44 | INFO | Kafka consumer created successfully.
+2025-09-14 23:02:44 | INFO | Polling messages from topic 'smoker_csv'...
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:00:43.072201', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:00:48.075970', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:00:53.077457', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:02:47 | INFO | MegaCorp: First complaint recorded (billing_error)
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:00:58.080311', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:03.082429', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:02:47 | INFO | DealHunter: First complaint recorded (overcharge)
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 1, 'DealHunter': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:08.083727', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:02:47 | WARNING | WATCH LIST: MegaCorp has 2 complaints - monitoring closely
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 2, 'DealHunter': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:13.086249', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:02:47 | INFO | SpamCorp: First complaint recorded (billing_error)
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 2, 'DealHunter': 1, 'SpamCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:18.091094', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 2, 'DealHunter': 1, 'SpamCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:23.092858', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 3 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 3, 'DealHunter': 1, 'SpamCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:28.095513', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 3, 'DealHunter': 1, 'SpamCorp': 1}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:33.097479', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:02:47 | WARNING | WATCH LIST: SpamCorp has 2 complaints - monitoring closely
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 3, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:38.100902', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 3, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:43.104938', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 4 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 4, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:48.108855', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: DealHunter - $89.99
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 4, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:53.117734', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 5 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 5, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:01:58.121360', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 5, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:03.123191', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 5, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:08.126084', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 6 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 6, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:13.130949', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 6, 'DealHunter': 1, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:18.136627', 'company': 'DealHunter', 'amount': 89.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from DealHunter: $89.99 - overcharge
+2025-09-14 23:02:47 | WARNING | WATCH LIST: DealHunter has 2 complaints - monitoring closely
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 6, 'DealHunter': 2, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:23.141460', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - unexpected_charge
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 7 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 7, 'DealHunter': 2, 'SpamCorp': 2}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:28.143344', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from SpamCorp: $199.99 - billing_error
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 3 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 7, 'DealHunter': 2, 'SpamCorp': 3}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:33.145380', 'company': 'ShopFast', 'amount': 15.5, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: ShopFast - $15.5
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 7, 'DealHunter': 2, 'SpamCorp': 3}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:38.149339', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'overcharge'}
+2025-09-14 23:02:47 | INFO |  Billing complaint from MegaCorp: $29.99 - overcharge
+2025-09-14 23:02:47 | WARNING | BILLING VIOLATION ALERT: MegaCorp has 8 complaints - potential consumer protection issue!
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 8, 'DealHunter': 2, 'SpamCorp': 3}
+2025-09-14 23:02:47 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:43.151613', 'company': 'BargainMart', 'amount': 45.0, 'complaint_type': 'none'}
+2025-09-14 23:02:47 | INFO | Clean transaction: BargainMart - $45.0
+2025-09-14 23:02:47 | INFO | Current complaint counts: {'MegaCorp': 8, 'DealHunter': 2, 'SpamCorp': 3}
+2025-09-14 23:02:48 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:48.153325', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:48 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:48.153325', 'company': 'SpamCorp', 'amount': 199.99, 'complaint_type': 'unexpected_charge'}
+2025-09-14 23:02:48 | INFO |  Billing complaint from SpamCorp: $199.99 - unexpected_charge
+2025-09-14 23:02:48 | WARNING | BILLING VIOLATION ALERT: SpamCorp has 4 complaints - potential consumer protection issue!
+2025-09-14 23:02:48 | INFO | Current complaint counts: {'MegaCorp': 8, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:02:53 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:53.154354', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:53 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:53.154354', 'company': 'QuickBuy', 'amount': 12.99, 'complaint_type': 'none'}
+2025-09-14 23:02:53 | INFO | Clean transaction: QuickBuy - $12.99
+2025-09-14 23:02:53 | INFO | Current complaint counts: {'MegaCorp': 8, 'DealHunter': 2, 'SpamCorp': 4}
+2025-09-14 23:02:58 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-15T04:02:58.156570', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:58 | INFO | Processed billing message: {'timestamp': '2025-09-15T04:02:58.156570', 'company': 'MegaCorp', 'amount': 29.99, 'complaint_type': 'billing_error'}
+2025-09-14 23:02:58 | INFO |  Billing complaint from MegaCorp: $29.99 - billing_error
+2025-09-14 23:02:58 | INFO | Current complaint counts: {'MegaCorp': 9, 'DealHunter': 2, 'SpamCorp': 4}

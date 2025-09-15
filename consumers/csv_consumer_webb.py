@@ -18,7 +18,7 @@ import json
 # Use a deque ("deck") - a double-ended queue data structure
 # A deque is a good way to monitor a certain number of "most recent" messages
 # A deque is a great data structure for time windows (e.g. the last 5 messages)
-from collections import deque
+from collections import deque, defaultdict
 
 # Import external packages
 from dotenv import load_dotenv
